@@ -1,0 +1,11 @@
+# config to auto request deletes from Plaid
+# do not store your information publicly.
+name: plaid
+    website: www.plaid.com/legal/data-protection-request-form/
+    required_inputs:
+        first_name: Bob
+        last_name: Jones
+        email: bob.jones@gmail.com
+        phone_number: 111-111-1111
+        request_type: Delete
+    freeform_input: {financial_institution: bank, application: app}
